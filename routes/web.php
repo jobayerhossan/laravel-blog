@@ -22,7 +22,7 @@ Auth::routes();
 
 Route::get('/', [FrontController::class, 'index'])->name('home');
 Route::get('/blog/{slug}', [FrontController::class, 'singlepost'])->name('singlepost');
-
+ 
 Route::get('/contact', function(){
     return view('layouts.contact');
 });
