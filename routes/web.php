@@ -17,7 +17,7 @@ use App\Http\Controllers\FrontController;
 |
 */
 
-Auth::routes();
+Auth::routes();     
 
 
 Route::get('/', [FrontController::class, 'index'])->name('home');
